@@ -4,9 +4,4 @@
 #DH_VERBOSE = 1
 
 %:
-	dh $@ --parallel
-
-override_dh_fixperms:
-	dh_fixperms
-	find debian/*/usr/share/yasnippet-snippets -type f -executable -print0 \
-	 | xargs -0 --no-run-if-empty chmod --verbose -x
+	dh $@ --with elpa

@@ -1,3 +1,9 @@
+yasnippet-snippets (0~git20161123-1) unstable; urgency=medium
+
+  * Updated upstream
+
+ -- Alberto Luaces Fernández <aluaces@udc.es>  Thu, 01 Dec 2016 14:09:58 +0100
+
 yasnippet-snippets (0~git20150512-1) unstable; urgency=low
 
   * Initial release (Closes: #786342).
