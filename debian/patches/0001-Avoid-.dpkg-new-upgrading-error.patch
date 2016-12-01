@@ -1,0 +1,26 @@
+From: Alberto Luaces <aluaces@udc.es>
+Date: Thu, 1 Dec 2016 21:48:40 +0100
+Subject: Avoid .dpkg-new upgrading error.
+
+When upgrading, dpkg aborts with saying that the file
+clojure/.yas-parent cannot be found.
+
+According to
+https://raphaelhertzog.com/2011/07/18/deciphering-one-of-dpkg-weirdest-errors-unable-to-open-pathtofoo-dpkg-new/
+this is usually caused by some types of "race conditions" when a file is
+shared by more than a directory or when there are multiple links to the
+same file.
+
+At the moment I am just disabling the file.
+---
+ clojure-mode/.yas-parents | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 clojure-mode/.yas-parents
+
+diff --git a/clojure-mode/.yas-parents b/clojure-mode/.yas-parents
+deleted file mode 100644
+index 75d003f..0000000
+--- a/clojure-mode/.yas-parents
++++ /dev/null
+@@ -1 +0,0 @@
+-prog-mode
