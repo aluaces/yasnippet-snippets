@@ -5,8 +5,8 @@ Maintainer: Alberto Luaces Fernández <aluaces@udc.es>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
-#Vcs-Git: git://anonscm.debian.org/collab-maint/yasnippet-snippets.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/yasnippet-snippets.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-emacsen/pkg/yasnippet-snippets.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-emacsen/pkg/yasnippet-snippets.git
 
 Package: yasnippet-snippets
 Architecture: all
