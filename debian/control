@@ -2,7 +2,9 @@ Source: yasnippet-snippets
 Section: lisp
 Priority: optional
 Maintainer: Alberto Luaces Fernández <aluaces@udc.es>
-Build-Depends: debhelper (>= 9)
+Build-Depends:
+ debhelper (>= 10),
+ dh-elpa,
 Standards-Version: 3.9.8
 Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
 Vcs-Git: git://anonscm.debian.org/pkg-emacsen/pkg/yasnippet-snippets.git
