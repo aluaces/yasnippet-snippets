@@ -1,16 +1,17 @@
 Source: yasnippet-snippets
-Section: lisp
-Priority: optional
-Maintainer: Alberto Luaces Fernández <aluaces@udc.es>
+Section: editors
+Priority: extra
+Maintainer: Debian Emacs addons team <pkg-emacsen-addons@lists.alioth.debian.org>
+Uploaders: Alberto Luaces Fernández <aluaces@udc.es>
 Build-Depends:
  debhelper (>= 10),
- dh-elpa,
+ dh-elpa (>= 0.0.17),
 Standards-Version: 3.9.8
 Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
 Vcs-Git: git://anonscm.debian.org/pkg-emacsen/pkg/yasnippet-snippets.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-emacsen/pkg/yasnippet-snippets.git
 
-Package: yasnippet-snippets
+Package: elpa-yasnippet-snippets
 Architecture: all
 Depends: ${misc:Depends}
 Description: Andrea Crotti's official yasnippet snippets
