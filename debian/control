@@ -11,7 +11,7 @@ Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
 Vcs-Git: git://anonscm.debian.org/pkg-emacsen/pkg/yasnippet-snippets.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-emacsen/pkg/yasnippet-snippets.git
 
-Package: elpa-yasnippet-snippets
+Package: yasnippet-snippets
 Architecture: all
 Depends: ${misc:Depends}
 Description: Andrea Crotti's official yasnippet snippets
