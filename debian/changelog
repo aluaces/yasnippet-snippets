@@ -1,8 +1,15 @@
 yasnippet-snippets (0~git20161123-1) unstable; urgency=medium
 
-  * Updated upstream
+  * Updated upstream (2016-11-23).
+  * Added a configuration file for gbp.  Thanks Sean Whitton.
+  * Updated d/control according to d.e.a.p.t. guidelines.
+  * Set build depends to dh>=10 and dh-elpa, so the package plays nice
+    with the elpa system.
+  * Updated repository URLs.
+  * Update standards to 3.9.8.
+  * Disabled parents in clojure mode due to upgrading errors.
 
- -- Alberto Luaces Fernández <aluaces@udc.es>  Thu, 01 Dec 2016 14:09:58 +0100
+ -- Alberto Luaces Fernández <aluaces@udc.es>  Wed, 28 Dec 2016 21:22:04 +0100
 
 yasnippet-snippets (0~git20150512-1) unstable; urgency=low
 
